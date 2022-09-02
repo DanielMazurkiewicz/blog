@@ -50,6 +50,7 @@ pm uninstall -k --user 0 com.facebook.services
 pm uninstall -k --user 0 com.motorola.android.fmradio
 pm uninstall -k --user 0 com.motorola.genie
 pm uninstall -k --user 0 com.motorola.moto
+pm uninstall -k --user 0 com.motorola.gamemode
 
 ```
 
