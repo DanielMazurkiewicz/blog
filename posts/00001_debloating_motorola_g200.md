@@ -2,6 +2,8 @@
 
 # Debloating Morotola G200
 
+This is my "opinionated" debloating instruction
+
 Prerequisites:
 1. ADB installed on your computer
 
@@ -26,6 +28,8 @@ pm uninstall -k --user 0 com.google.android.apps.subscriptions.red
 pm uninstall -k --user 0 com.google.android.apps.photos
 pm uninstall -k --user 0 com.google.android.apps.podcasts
 pm uninstall -k --user 0 com.google.android.apps.magazines
+pm uninstall -k --user 0 com.google.android.apps.tachyon
+pm uninstall -k --user 0 com.google.android.apps.wellbeing
 
 pm uninstall -k --user 0 com.google.android.calendar
 pm uninstall -k --user 0 com.google.android.googlequicksearchbox
@@ -33,12 +37,19 @@ pm uninstall -k --user 0 com.google.android.contacts
 pm uninstall -k --user 0 com.google.android.googlequicksearchbox
 pm uninstall -k --user 0 com.google.android.videos
 pm uninstall -k --user 0 com.google.android.gm
-pm uninstall -k --user 0 com.google.android.apps.tachyon
 pm uninstall -k --user 0 com.google.android.youtube
+
+pm uninstall -k --user 0 com.google.android.syncadapters.contacts
+pm uninstall -k --user 0 com.google.android.printservice.recommendation
 
 pm uninstall -k --user 0 com.facebook.system
 pm uninstall -k --user 0 com.facebook.appmanager
 pm uninstall -k --user 0 com.facebook.katana
 pm uninstall -k --user 0 com.facebook.services
 
+pm uninstall -k --user 0 com.motorola.android.fmradio
+pm uninstall -k --user 0 com.motorola.genie
+pm uninstall -k --user 0 com.motorola.moto
+
 ```
+
